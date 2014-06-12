@@ -8,8 +8,8 @@ server = TCPServer.new(2000)
 loop do
   puts "Waiting for new clients on port #{server.addr[1]}..."
   client = server.accept
-
-  # Use client.gets to read a line of input from the client
-  # Use client.puts to send a line of input to the client
-  # Use client.close to hang up on the client
+  client_ip_addr = client.addr[2]
+  message = client.gets
+  client.puts message
+  client.close
 end

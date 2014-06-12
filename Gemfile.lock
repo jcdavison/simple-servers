@@ -1,0 +1,15 @@
+GIT
+  remote: git@github.com:codeunion/ZipZapZop.git
+  revision: 4e55827dcdfeb13658a5d30aa1b8a0ff285099cd
+  specs:
+    zipzapzop (0.0.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  zipzapzop!
