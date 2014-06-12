@@ -1,5 +1,4 @@
 require 'socket'
-# require '../../zip-zap-zop/zip.rb'
 require 'zipzapzop'
 server = TCPServer.new(2000)
 
